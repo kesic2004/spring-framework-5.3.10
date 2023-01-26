@@ -7,7 +7,9 @@ pluginManagement {
 
 plugins {
 	id "com.gradle.enterprise" version "3.6.1"
-	id "io.spring.ge.conventions" version "0.0.7"
+	// A build scan was not published as you have not authenticated with server 'ge.spring.io'.
+	// The remote build cache was disabled during the build due to errors.
+	// id "io.spring.ge.conventions" version "0.0.7"
 }
 
 include "spring-aop"
